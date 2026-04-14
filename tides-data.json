@@ -3,8 +3,20 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T02:33:39.484Z"
+    "updatedAt": "2026-04-14T02:34:23.065Z"
   },
-  "tides": [],
+  "tides": [
+    {
+      "id": "5c5d8a0b-681b-4f63-b0b8-f87adbd88e15",
+      "title": "The Braided Chain",
+      "status": "gathering",
+      "heat": "chilled",
+      "summary": "Boat Projects",
+      "notes": "",
+      "createdAt": "2026-04-14T02:34:23.065Z",
+      "updatedAt": "2026-04-14T02:34:23.065Z",
+      "waves": []
+    }
+  ],
   "horizons": []
 }
