@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T02:35:21.158Z"
+    "updatedAt": "2026-04-14T02:35:57.092Z"
   },
   "tides": [
     {
@@ -26,6 +26,17 @@
       "notes": "",
       "createdAt": "2026-04-14T02:35:21.158Z",
       "updatedAt": "2026-04-14T02:35:21.158Z",
+      "waves": []
+    },
+    {
+      "id": "55b33a25-2df9-456d-a500-d1beb68297fb",
+      "title": "Oasis",
+      "status": "gathering",
+      "heat": "warm",
+      "summary": "Garden list",
+      "notes": "",
+      "createdAt": "2026-04-14T02:35:57.092Z",
+      "updatedAt": "2026-04-14T02:35:57.092Z",
       "waves": []
     }
   ],
