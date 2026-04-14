@@ -3,35 +3,35 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "claude",
-    "updatedAt": "2026-04-13T12:00:00.000Z"
+    "updatedAt": "2026-04-13T13:00:00.000Z"
   },
   "tides": [
     {
       "id": "5c5d8a0b-681b-4f63-b0b8-f87adbd88e15",
       "title": "The Braided Chain",
-      "status": "swelling",
-      "heat": "simmering",
-      "summary": "Boat projects and maintenance on the Hunter 330 at Harbortown Marina.",
-      "notes": "Boat is now at Harbortown Marina on Merritt Island after the ICW passage. Main open project is the holding tank replacement.",
+      "status": "gathering",
+      "heat": "chilled",
+      "summary": "Ongoing maintenance and upgrades on the 2004 Hunter 330 at Harbortown Marina, Merritt Island.",
+      "notes": "Passage from Fort Pierce complete. Paperwork (USCG docs, FL registration) all done — recheck both June 2027. Nine active project waves.",
       "createdAt": "2026-04-14T02:34:23.065Z",
-      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "updatedAt": "2026-04-14T13:00:00.000Z",
       "waves": [
         {
           "id": "a3f9799e-5d58-426d-9086-c94139b33bdf",
           "title": "Holding Tank Replacement",
           "status": "gathering",
-          "heat": "simmering",
+          "heat": "chilled",
           "summary": "Replace existing holding tank with custom rigid poly tank from Ronco Plastics. Porta-potty as interim solution.",
           "notes": "Custom tank design in progress. Need to confirm dimensions and order. Porta-potty covers gap in the meantime.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-001",
               "text": "Confirm final tank dimensions",
               "status": "open",
-              "heat": "simmering",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -40,8 +40,8 @@
               "id": "r-002",
               "text": "Place order with Ronco Plastics",
               "status": "open",
-              "heat": "simmering",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -50,8 +50,8 @@
               "id": "r-003",
               "text": "Source porta-potty as interim",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -60,8 +60,8 @@
               "id": "r-004",
               "text": "Schedule installation",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -69,31 +69,113 @@
           ]
         },
         {
-          "id": "w-boat-002",
-          "title": "Documentation & Registration",
-          "status": "cresting",
-          "heat": "warm",
-          "summary": "USCG documentation reinstated, Florida state registration completed.",
-          "notes": "Both done. Keep renewal dates on radar.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "id": "w-boat-safety",
+          "title": "Safety & Compliance",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Flares and fire extinguishers expiring soon, placards in rough shape. Get everything current.",
+          "notes": "USCG docs and FL registration complete — recheck June 2027. This wave is about physical safety equipment only.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
-              "id": "r-005",
-              "text": "Note USCG documentation renewal date",
+              "id": "r-boat-s01",
+              "text": "Replace expired or soon-expiring flares",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
             },
             {
-              "id": "r-006",
-              "text": "Note Florida registration renewal date",
+              "id": "r-boat-s02",
+              "text": "Replace fire extinguishers",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-s03",
+              "text": "Order and install new safety placards",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-s04",
+              "text": "Recheck USCG docs and FL registration — June 2027",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": "2027-06-01T00:00:00.000Z",
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-canvas",
+          "title": "Canvas & Sails",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Bimini needs all new canvas and a welder for a quick frame repair. Sails have failing edge stitching and one small tear in the main.",
+          "notes": "Bimini frame weld is a small job — find a local mobile welder. Sail stitching is edge work, likely a sailmaker visit or drop-off. Main tear is small but needs addressing before it grows.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-boat-c01",
+              "text": "Source Bimini canvas replacement — measure frame first",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-c02",
+              "text": "Find mobile welder for Bimini frame repair",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-c03",
+              "text": "Get Bimini frame welded",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-c04",
+              "text": "Install new Bimini canvas",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-c05",
+              "text": "Take sails to sailmaker — edge stitching re-stitch and main tear repair",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -101,21 +183,291 @@
           ]
         },
         {
-          "id": "w-boat-003",
-          "title": "Safety Equipment Audit",
-          "status": "cresting",
+          "id": "w-boat-rigging-diy",
+          "title": "Rigging — DIY Replacement",
+          "status": "gathering",
           "heat": "chilled",
-          "summary": "Safety audit completed. Any gaps identified should be tracked here.",
-          "notes": "",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "summary": "Gradually replacing sheets and halyards yourself to reduce rigger costs.",
+          "notes": "Do what you can independently before handing off. Track what's been replaced and what's still original.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
-              "id": "r-007",
-              "text": "Address any open items from safety audit",
+              "id": "r-boat-r01",
+              "text": "Audit all sheets and halyards — note condition and age of each",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-r02",
+              "text": "Source replacement line — measure and order",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-r03",
+              "text": "Replace sheets",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-r04",
+              "text": "Replace halyards",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-rigging-shroud",
+          "title": "Rigging — Shroud Inspection",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "One shroud showing minor wear signs noticed this weekend. Get a rigger to assess.",
+          "notes": "Noticed this weekend — not an emergency but should not be ignored. Get professional eyes on it before sailing offshore.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-boat-sh01",
+              "text": "Document location and photos of wear on shroud",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-sh02",
+              "text": "Book rigger inspection",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-sh03",
+              "text": "Replace shroud if rigger recommends",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-electrical",
+          "title": "Electrical & Instruments",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Interior lights burning out with non-replaceable bulbs, tachometer intermittently failing, instrument wiring has a loose connection causing glitches.",
+          "notes": "Tach and instrument glitches feel connected — likely a loose connection somewhere in the instrument wiring. Investigate as a system. Interior lights may need fixture replacement rather than bulb swap if bulbs are integrated.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-boat-e01",
+              "text": "Identify interior light fixture models — determine if bulbs are replaceable or fixtures need swapping",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-e02",
+              "text": "Replace or upgrade interior light fixtures",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-e03",
+              "text": "Trace instrument wiring — find and reseat loose connection",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-e04",
+              "text": "Test tachometer after wiring fix — confirm if related",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-e05",
+              "text": "Replace tachometer if wiring fix doesn't resolve it",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-stove",
+          "title": "Stove Repair",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Propane stove won't stay lit for more than ~5 minutes despite full tanks.",
+          "notes": "Likely a thermocouple or flame sensor issue — common on marine propane stoves. Check thermocouple first before assuming regulator or solenoid.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-boat-st01",
+              "text": "Check and clean thermocouple — most likely culprit",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-st02",
+              "text": "Replace thermocouple if cleaning doesn't resolve it",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-st03",
+              "text": "Check propane regulator and solenoid if thermocouple is fine",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-clean",
+          "title": "Deep Clean",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Full boat detail — hull, deck, interior, bilge.",
+          "notes": "Good to do before the other projects so you're working in a clean environment.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-boat-cl01",
+              "text": "Clean and scrub hull",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-cl02",
+              "text": "Clean deck and cockpit",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-cl03",
+              "text": "Deep clean interior — cabin, berths, galley, head",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-cl04",
+              "text": "Clean and inspect bilge",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-mattress",
+          "title": "Aft Berth Mattress",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Replace the aft berth mattress.",
+          "notes": "Hunter 330 aft berth is an irregular shape — measure carefully before ordering. Custom cut foam is usually the most practical option for odd marine shapes.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-boat-m01",
+              "text": "Make a cardboard template of the aft berth shape",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-m02",
+              "text": "Source custom foam cut or marine mattress to template",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-boat-m03",
+              "text": "Order and install new mattress",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -127,29 +479,229 @@
     {
       "id": "33947f24-b34f-4139-abe0-d546df9d09e0",
       "title": "The Station",
-      "status": "swelling",
-      "heat": "warm",
-      "summary": "Fort Pierce townhouse condo — preparing for snowbird seasonal rentals.",
-      "notes": "1,196 sq ft. Mid-range furnishing estimate ~$13,494. Room-by-room checklist built previously.",
+      "status": "gathering",
+      "heat": "chilled",
+      "summary": "Fort Pierce townhouse condo (1,196 sq ft) — fix up and prepare for snowbird seasonal rentals, then eventually transition as part of Winter Park move.",
+      "notes": "Mid-range furnishing estimate ~$13,494. Room-by-room checklist and pricing spreadsheet built previously. Most fix-up work is rental prep but worthwhile regardless.",
       "createdAt": "2026-04-14T02:35:21.158Z",
-      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "updatedAt": "2026-04-14T13:00:00.000Z",
       "waves": [
+        {
+          "id": "w-station-lock",
+          "title": "Front Door Lock Swap",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Swap current keypad lock to standard lock set for renters. Standard lock already on hand.",
+          "notes": "Keypad is current setup for personal use. Swap to standard deadbolt/handle set before any renter arrives. Lock in hand — just needs to be done.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-st-l01",
+              "text": "Swap keypad lock to standard lock set before renter arrival",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-l02",
+              "text": "Store keypad lock safely for reinstall after rental",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-station-paint",
+          "title": "Painting",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Whole unit needs painting. Partially done. Room list TBD — add rooms as you work through it.",
+          "notes": "Purely cosmetic, no wall repairs identified yet. Add specific rooms and colors to ripples as the list comes together.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-st-p01",
+              "text": "Compile full room-by-room paint list with colors",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-p02",
+              "text": "Source paint and supplies",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-p03",
+              "text": "Complete remaining rooms",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-station-floors",
+          "title": "Floor Relay",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Floating floors were poorly installed and are gapping. Need to be relaid properly. Back burner — budget pending.",
+          "notes": "Purely aesthetic issue, not a safety concern. Not a priority until budget allows. Quarter round trim is a separate wave to address the gap cosmetically in the meantime.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-st-f01",
+              "text": "Get quote for floor relay",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-f02",
+              "text": "Schedule and complete floor relay when budget allows",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-station-trim",
+          "title": "Quarter Round Trim",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Install quarter round along baseboards throughout to cover gaps from floating floor installation.",
+          "notes": "DIY job. Gaps are between baseboard and floor — quarter round is the right fix. Do this before floor relay becomes a priority since it's a quick cosmetic win.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-st-t01",
+              "text": "Measure total linear footage needed",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-t02",
+              "text": "Source and buy quarter round — match floor color",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-t03",
+              "text": "Install quarter round throughout",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-t04",
+              "text": "Caulk and touch up paint along trim",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-station-faucets",
+          "title": "Faucets & Shower Heads",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Descale all faucets and shower heads throughout — follow-up from previous brown water issue.",
+          "notes": "Brown water issue previously resolved. This is cleanup of residual buildup. DIY descale job — white vinegar soak method works well for most fixtures.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-st-fa01",
+              "text": "Descale kitchen faucet",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-fa02",
+              "text": "Descale bathroom faucets",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-st-fa03",
+              "text": "Descale shower heads",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
         {
           "id": "w-station-001",
           "title": "Furnishing for Rental",
-          "status": "swelling",
-          "heat": "warm",
+          "status": "gathering",
+          "heat": "chilled",
           "summary": "Room-by-room furnishing to prepare for snowbird seasonal rentals. Mid-range budget ~$13,494.",
           "notes": "Full checklist and pricing spreadsheet built. Work through room by room.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-008",
               "text": "Complete living room furnishing",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -158,8 +710,8 @@
               "id": "r-009",
               "text": "Complete bedroom furnishing",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -168,8 +720,8 @@
               "id": "r-010",
               "text": "Complete kitchen essentials",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -178,8 +730,8 @@
               "id": "r-011",
               "text": "Research rental listing platforms",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -188,8 +740,8 @@
               "id": "r-012",
               "text": "Set pricing for snowbird season",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -200,18 +752,18 @@
           "id": "w-station-002",
           "title": "Winter Park Relocation",
           "status": "gathering",
-          "heat": "warm",
+          "heat": "chilled",
           "summary": "Planning relocation from Fort Pierce to Winter Park area.",
           "notes": "Explored community and friendship options in Winter Park. Mortgage scenarios modeled previously.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-013",
               "text": "Finalize timeline for move",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -220,8 +772,8 @@
               "id": "r-014",
               "text": "Revisit mortgage payment scenarios",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -233,29 +785,29 @@
     {
       "id": "55b33a25-2df9-456d-a500-d1beb68297fb",
       "title": "Oasis",
-      "status": "swelling",
-      "heat": "warm",
+      "status": "gathering",
+      "heat": "chilled",
       "summary": "Garden planning and planting for the Winter Park yard (Zone 9b).",
       "notes": "52-plant catalog built. 1x10ft west-facing window bed planting plan finalized. Fruit tree options explored. Cat safety is a constraint on all plant decisions.",
       "createdAt": "2026-04-14T02:35:57.092Z",
-      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "updatedAt": "2026-04-13T13:00:00.000Z",
       "waves": [
         {
           "id": "w-oasis-001",
           "title": "West-Facing Window Bed",
-          "status": "cresting",
-          "heat": "warm",
+          "status": "gathering",
+          "heat": "chilled",
           "summary": "1x10ft west-facing window bed. Planting plan finalized.",
           "notes": "Plan complete. Next step is purchasing and planting.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-015",
               "text": "Purchase plants per finalized plan",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -264,8 +816,8 @@
               "id": "r-016",
               "text": "Plant and establish window bed",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -279,15 +831,15 @@
           "heat": "chilled",
           "summary": "Exploring fruit tree options for the lawn. Zone 9b compatible selections.",
           "notes": "Cat safety constraint applies. Research done, no decisions made yet.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-017",
               "text": "Finalize fruit tree selections",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -296,8 +848,8 @@
               "id": "r-018",
               "text": "Determine planting locations in yard",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -306,8 +858,8 @@
               "id": "r-019",
               "text": "Purchase and plant trees",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -317,19 +869,19 @@
         {
           "id": "w-oasis-003",
           "title": "Plant Catalog",
-          "status": "cresting",
+          "status": "gathering",
           "heat": "chilled",
           "summary": "52-plant catalog built in Google Sheets and HTML. Ongoing maintenance as plants are added.",
           "notes": "Combined HTML file with plant catalog and drag-and-drop garden map built.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-020",
               "text": "Keep catalog updated as new plants are added",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -342,12 +894,229 @@
       "id": "69a94a71-9549-4d97-968e-79afae406d78",
       "title": "Duck Duck Jeep",
       "status": "gathering",
-      "heat": "warm",
-      "summary": "Jeep projects and maintenance.",
-      "notes": "",
+      "heat": "chilled",
+      "summary": "Getting the Wrangler roadworthy and loved again. Currently Camden's vehicle, needs attention across safety, electrical, and cosmetics.",
+      "notes": "Rained in for a while before the roof was fixed 5 years ago — moisture likely root cause of several electrical issues. Soft rear window is yellowed/hazed, not cracked. Mostly sits but seatbelt issue has made roadworthiness urgent.",
       "createdAt": "2026-04-14T02:37:17.243Z",
-      "updatedAt": "2026-04-13T12:00:00.000Z",
-      "waves": []
+      "updatedAt": "2026-04-13T13:00:00.000Z",
+      "waves": [
+        {
+          "id": "w-jeep-001",
+          "title": "Safety First",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Urgent roadworthiness items — seatbelts, check engine light, and the catalytic converter rattle.",
+          "notes": "Driver's seatbelt stopped retracting this weekend — urgent. Passenger seatbelt locked up for a while but manageable. Doing both at once makes sense. Dad suspects catalytic converter casing crack is the rattle on acceleration.",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-jeep-001",
+              "text": "Replace driver's side seatbelt retractor",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-002",
+              "text": "Replace passenger seatbelt while at it",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-003",
+              "text": "Pull check engine codes — diagnose before assuming",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-004",
+              "text": "Inspect catalytic converter casing for crack",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-005",
+              "text": "Repair or replace catalytic converter as needed",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-006",
+              "text": "Oil change",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-jeep-002",
+          "title": "Electrical Gremlins",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Windows finicky, stereo broken, AC broken — likely all related to old rain damage. Diagnose as a system before throwing parts at individual symptoms.",
+          "notes": "Jeep was rained in before the roof was fixed ~5 years ago. Worth checking fuse box and common ground points for corrosion before assuming individual component failures.",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-jeep-007",
+              "text": "Inspect fuse box for corrosion or blown fuses",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-008",
+              "text": "Check common ground points for moisture damage",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-009",
+              "text": "Diagnose window motors/switches — test each independently",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-010",
+              "text": "Diagnose stereo — determine if head unit or wiring",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-011",
+              "text": "Diagnose AC — check refrigerant level first",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-012",
+              "text": "Repair or replace components based on diagnosis",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-jeep-003",
+          "title": "Body & Interior",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Rust panels, seats, rear window restoration, and a proper deep clean.",
+          "notes": "Rear soft window is yellowed and hazed — try plastic polish/restoration kit before replacing. Rust panels need assessment on severity before deciding DIY vs shop. Seats are aesthetic/comfort — lowest urgency.",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-jeep-013",
+              "text": "Deep clean interior — establish a fresh baseline",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-014",
+              "text": "Try plastic restoration kit on rear soft window",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-015",
+              "text": "Replace rear soft window if restoration doesn't work",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-016",
+              "text": "Assess rust panels — surface vs structural",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-017",
+              "text": "Treat or replace rusted panels",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-jeep-018",
+              "text": "Assess seats — repair, recover, or replace",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "94259c2b-c44b-4c08-84a5-2b9cbcc497e8",
@@ -357,24 +1126,24 @@
       "summary": "Things for and with others — friends, family, Camden, community.",
       "notes": "Includes Bahamas trip planning, community building in Winter Park, and relationship work.",
       "createdAt": "2026-04-14T02:40:42.400Z",
-      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "updatedAt": "2026-04-13T13:00:00.000Z",
       "waves": [
         {
           "id": "w-social-001",
           "title": "Marsh Harbour Trip — May 2026",
-          "status": "swelling",
-          "heat": "warm",
+          "status": "gathering",
+          "heat": "chilled",
           "summary": "Group trip to Marsh Harbour, Bahamas. Four people, May 2026. Air Unlimited MCO-MHH service identified.",
           "notes": "Interactive flight search dashboard built. Need to finalize flights and logistics.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-021",
               "text": "Confirm flights for all four people",
               "status": "open",
-              "heat": "simmering",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -383,8 +1152,8 @@
               "id": "r-022",
               "text": "Book accommodation in Marsh Harbour",
               "status": "open",
-              "heat": "simmering",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -393,8 +1162,8 @@
               "id": "r-023",
               "text": "Sort customs/entry documentation",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -403,8 +1172,8 @@
               "id": "r-024",
               "text": "Plan activities and dining",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -418,15 +1187,15 @@
           "heat": "chilled",
           "summary": "Finding community and friendships in Winter Park after the move.",
           "notes": "Researched options previously. No concrete actions taken yet.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-025",
               "text": "Identify 2-3 community anchors to try first",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -440,15 +1209,15 @@
           "heat": "chilled",
           "summary": "Build a solitaire card game as a gift for dad. Second Android dev project.",
           "notes": "First project (task reminder app) needs to complete before this starts.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-13T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-026",
               "text": "Complete task reminder app first",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -457,8 +1226,8 @@
               "id": "r-027",
               "text": "Design solitaire game UI",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -467,8 +1236,8 @@
               "id": "r-028",
               "text": "Build and gift to dad",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -480,71 +1249,29 @@
     {
       "id": "tide-personal-001",
       "title": "The Current",
-      "status": "swelling",
-      "heat": "warm",
-      "summary": "Personal growth, health, learning, and creative projects.",
-      "notes": "Covers health workup, Spanish learning, writing, and Android development.",
-      "createdAt": "2026-04-13T12:00:00.000Z",
-      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "status": "gathering",
+      "heat": "chilled",
+      "summary": "Learning, creative projects, and tools I'm building for myself.",
+      "notes": "Health tracking moved out — will find a separate home for it. This tide is Spanish, writing, Android dev, and the Tides app itself.",
+      "createdAt": "2026-04-13T13:00:00.000Z",
+      "updatedAt": "2026-04-14T13:00:00.000Z",
       "waves": [
-        {
-          "id": "w-personal-001",
-          "title": "Health Workup",
-          "status": "swelling",
-          "heat": "simmering",
-          "summary": "Active health workup in progress. Lab results reviewed. Prioritized specialist roadmap drafted with internal medicine as coordination hub.",
-          "notes": "Internal medicine is the hub. Endocrinology and other specialists to follow per the roadmap.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
-          "movedFrom": null,
-          "ripples": [
-            {
-              "id": "r-029",
-              "text": "Schedule internal medicine coordination appointment",
-              "status": "open",
-              "heat": "simmering",
-              "createdAt": "2026-04-13T12:00:00.000Z",
-              "dueDate": null,
-              "reminderAt": null,
-              "movedFrom": null
-            },
-            {
-              "id": "r-030",
-              "text": "Schedule endocrinology referral",
-              "status": "open",
-              "heat": "simmering",
-              "createdAt": "2026-04-13T12:00:00.000Z",
-              "dueDate": null,
-              "reminderAt": null,
-              "movedFrom": null
-            },
-            {
-              "id": "r-031",
-              "text": "Follow up on remaining specialist referrals per roadmap",
-              "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
-              "dueDate": null,
-              "reminderAt": null,
-              "movedFrom": null
-            }
-          ]
-        },
         {
           "id": "w-personal-002",
           "title": "Spanish Learning",
-          "status": "swelling",
-          "heat": "warm",
+          "status": "gathering",
+          "heat": "chilled",
           "summary": "LearnCraft method. 20+ lessons complete. Multiple-choice drills preferred.",
           "notes": "Subjunctive and preterite/imperfect distinction flagged for later revisit once vocab base is stronger.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-032",
               "text": "Continue LearnCraft lessons consistently",
               "status": "open",
-              "heat": "warm",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -553,8 +1280,8 @@
               "id": "r-033",
               "text": "Revisit subjunctive when vocab base is stronger",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -563,8 +1290,8 @@
               "id": "r-034",
               "text": "Revisit preterite/imperfect distinction",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -578,15 +1305,15 @@
           "heat": "chilled",
           "summary": "Intentionally on hold 1-2 months. Worldbuilding and character folders exist. Arc problem is the thing to solve.",
           "notes": "Goal is completion, not perfection. Work backwards: what is the last true thing this story says?",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-035",
               "text": "Review existing worldbuilding folders",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -595,8 +1322,8 @@
               "id": "r-036",
               "text": "Work backwards from ending — what does the story finally say?",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -605,8 +1332,8 @@
               "id": "r-037",
               "text": "Draft arc skeleton before writing forward",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -618,17 +1345,17 @@
           "title": "Android Development",
           "status": "gathering",
           "heat": "chilled",
-          "summary": "Learning Android/Kotlin in Android Studio. Task reminder app first.",
-          "notes": "Day 1 environment setup done. Data modeling is next step.",
-          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "summary": "Learning Android/Kotlin in Android Studio. Task reminder app first, then solitaire game for dad.",
+          "notes": "Day 1 environment setup done. Data modeling is next step. Solitaire app is a separate wave under Social Goose.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-038",
               "text": "Complete data model design for task reminder app",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -637,8 +1364,8 @@
               "id": "r-039",
               "text": "Build basic UI scaffold",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
@@ -647,8 +1374,60 @@
               "id": "r-040",
               "text": "Implement reminder logic",
               "status": "open",
-              "heat": "chilled",
-              "createdAt": "2026-04-13T12:00:00.000Z",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-personal-005",
+          "title": "Tides App",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Building this app — PWA hosted on GitHub Pages, JSON data file in GitHub repo, Claude integration via MCP.",
+          "notes": "v1 built and deployed. Currently populating data. Next: enable GitHub MCP connector for live Claude edits, then move to private data repo. v2 will add Horizon grouping and due dates/reminders.",
+          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-tides-01",
+              "text": "Finish populating all tides with real data",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-tides-02",
+              "text": "Enable GitHub MCP connector in Claude for live edits",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-tides-03",
+              "text": "Move data to private repo, update app to read from it",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-tides-04",
+              "text": "Plan v2 — Horizon grouping, due dates, reminders",
+              "status": "open",
+              "heat": null,
+              "createdAt": "2026-04-14T13:00:00.000Z",
               "dueDate": null,
               "reminderAt": null,
               "movedFrom": null
