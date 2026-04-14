@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T02:34:23.065Z"
+    "updatedAt": "2026-04-14T02:35:21.158Z"
   },
   "tides": [
     {
@@ -15,6 +15,17 @@
       "notes": "",
       "createdAt": "2026-04-14T02:34:23.065Z",
       "updatedAt": "2026-04-14T02:34:23.065Z",
+      "waves": []
+    },
+    {
+      "id": "33947f24-b34f-4139-abe0-d546df9d09e0",
+      "title": "The Station",
+      "status": "swelling",
+      "heat": "warm",
+      "summary": "Townhouse Projects",
+      "notes": "",
+      "createdAt": "2026-04-14T02:35:21.158Z",
+      "updatedAt": "2026-04-14T02:35:21.158Z",
       "waves": []
     }
   ],
