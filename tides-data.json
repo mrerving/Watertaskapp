@@ -2,30 +2,125 @@
   "_meta": {
     "version": "1.0",
     "schema": "tides",
-    "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T02:41:30.482Z"
+    "lastModifiedBy": "claude",
+    "updatedAt": "2026-04-13T12:00:00.000Z"
   },
   "tides": [
     {
       "id": "5c5d8a0b-681b-4f63-b0b8-f87adbd88e15",
       "title": "The Braided Chain",
-      "status": "gathering",
-      "heat": "chilled",
-      "summary": "Boat Projects",
-      "notes": "",
+      "status": "swelling",
+      "heat": "simmering",
+      "summary": "Boat projects and maintenance on the Hunter 330 at Harbortown Marina.",
+      "notes": "Boat is now at Harbortown Marina on Merritt Island after the ICW passage. Main open project is the holding tank replacement.",
       "createdAt": "2026-04-14T02:34:23.065Z",
-      "updatedAt": "2026-04-14T02:34:23.065Z",
+      "updatedAt": "2026-04-13T12:00:00.000Z",
       "waves": [
         {
           "id": "a3f9799e-5d58-426d-9086-c94139b33bdf",
-          "title": "Waste Tank",
+          "title": "Holding Tank Replacement",
           "status": "gathering",
           "heat": "simmering",
-          "summary": "Replace waste tank",
-          "notes": "",
-          "updatedAt": "2026-04-14T02:41:30.482Z",
+          "summary": "Replace existing holding tank with custom rigid poly tank from Ronco Plastics. Porta-potty as interim solution.",
+          "notes": "Custom tank design in progress. Need to confirm dimensions and order. Porta-potty covers gap in the meantime.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
           "movedFrom": null,
-          "ripples": []
+          "ripples": [
+            {
+              "id": "r-001",
+              "text": "Confirm final tank dimensions",
+              "status": "open",
+              "heat": "simmering",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-002",
+              "text": "Place order with Ronco Plastics",
+              "status": "open",
+              "heat": "simmering",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-003",
+              "text": "Source porta-potty as interim",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-004",
+              "text": "Schedule installation",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-002",
+          "title": "Documentation & Registration",
+          "status": "cresting",
+          "heat": "warm",
+          "summary": "USCG documentation reinstated, Florida state registration completed.",
+          "notes": "Both done. Keep renewal dates on radar.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-005",
+              "text": "Note USCG documentation renewal date",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-006",
+              "text": "Note Florida registration renewal date",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-boat-003",
+          "title": "Safety Equipment Audit",
+          "status": "cresting",
+          "heat": "chilled",
+          "summary": "Safety audit completed. Any gaps identified should be tracked here.",
+          "notes": "",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-007",
+              "text": "Address any open items from safety audit",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
         }
       ]
     },
@@ -34,32 +129,224 @@
       "title": "The Station",
       "status": "swelling",
       "heat": "warm",
-      "summary": "Townhouse Projects",
-      "notes": "",
+      "summary": "Fort Pierce townhouse condo — preparing for snowbird seasonal rentals.",
+      "notes": "1,196 sq ft. Mid-range furnishing estimate ~$13,494. Room-by-room checklist built previously.",
       "createdAt": "2026-04-14T02:35:21.158Z",
-      "updatedAt": "2026-04-14T02:35:21.158Z",
-      "waves": []
+      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "waves": [
+        {
+          "id": "w-station-001",
+          "title": "Furnishing for Rental",
+          "status": "swelling",
+          "heat": "warm",
+          "summary": "Room-by-room furnishing to prepare for snowbird seasonal rentals. Mid-range budget ~$13,494.",
+          "notes": "Full checklist and pricing spreadsheet built. Work through room by room.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-008",
+              "text": "Complete living room furnishing",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-009",
+              "text": "Complete bedroom furnishing",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-010",
+              "text": "Complete kitchen essentials",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-011",
+              "text": "Research rental listing platforms",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-012",
+              "text": "Set pricing for snowbird season",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-station-002",
+          "title": "Winter Park Relocation",
+          "status": "gathering",
+          "heat": "warm",
+          "summary": "Planning relocation from Fort Pierce to Winter Park area.",
+          "notes": "Explored community and friendship options in Winter Park. Mortgage scenarios modeled previously.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-013",
+              "text": "Finalize timeline for move",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-014",
+              "text": "Revisit mortgage payment scenarios",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "55b33a25-2df9-456d-a500-d1beb68297fb",
       "title": "Oasis",
-      "status": "gathering",
+      "status": "swelling",
       "heat": "warm",
-      "summary": "Garden list",
-      "notes": "",
+      "summary": "Garden planning and planting for the Winter Park yard (Zone 9b).",
+      "notes": "52-plant catalog built. 1x10ft west-facing window bed planting plan finalized. Fruit tree options explored. Cat safety is a constraint on all plant decisions.",
       "createdAt": "2026-04-14T02:35:57.092Z",
-      "updatedAt": "2026-04-14T02:35:57.092Z",
-      "waves": []
+      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "waves": [
+        {
+          "id": "w-oasis-001",
+          "title": "West-Facing Window Bed",
+          "status": "cresting",
+          "heat": "warm",
+          "summary": "1x10ft west-facing window bed. Planting plan finalized.",
+          "notes": "Plan complete. Next step is purchasing and planting.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-015",
+              "text": "Purchase plants per finalized plan",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-016",
+              "text": "Plant and establish window bed",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-oasis-002",
+          "title": "Fruit Trees",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Exploring fruit tree options for the lawn. Zone 9b compatible selections.",
+          "notes": "Cat safety constraint applies. Research done, no decisions made yet.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-017",
+              "text": "Finalize fruit tree selections",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-018",
+              "text": "Determine planting locations in yard",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-019",
+              "text": "Purchase and plant trees",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-oasis-003",
+          "title": "Plant Catalog",
+          "status": "cresting",
+          "heat": "chilled",
+          "summary": "52-plant catalog built in Google Sheets and HTML. Ongoing maintenance as plants are added.",
+          "notes": "Combined HTML file with plant catalog and drag-and-drop garden map built.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-020",
+              "text": "Keep catalog updated as new plants are added",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "69a94a71-9549-4d97-968e-79afae406d78",
       "title": "Duck Duck Jeep",
       "status": "gathering",
       "heat": "warm",
-      "summary": "Jeep Projects",
+      "summary": "Jeep projects and maintenance.",
       "notes": "",
       "createdAt": "2026-04-14T02:37:17.243Z",
-      "updatedAt": "2026-04-14T02:37:17.243Z",
+      "updatedAt": "2026-04-13T12:00:00.000Z",
       "waves": []
     },
     {
@@ -67,11 +354,308 @@
       "title": "Social Goose",
       "status": "gathering",
       "heat": "chilled",
-      "summary": "Things for others",
-      "notes": "",
+      "summary": "Things for and with others — friends, family, Camden, community.",
+      "notes": "Includes Bahamas trip planning, community building in Winter Park, and relationship work.",
       "createdAt": "2026-04-14T02:40:42.400Z",
-      "updatedAt": "2026-04-14T02:40:42.402Z",
-      "waves": []
+      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "waves": [
+        {
+          "id": "w-social-001",
+          "title": "Marsh Harbour Trip — May 2026",
+          "status": "swelling",
+          "heat": "warm",
+          "summary": "Group trip to Marsh Harbour, Bahamas. Four people, May 2026. Air Unlimited MCO-MHH service identified.",
+          "notes": "Interactive flight search dashboard built. Need to finalize flights and logistics.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-021",
+              "text": "Confirm flights for all four people",
+              "status": "open",
+              "heat": "simmering",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-022",
+              "text": "Book accommodation in Marsh Harbour",
+              "status": "open",
+              "heat": "simmering",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-023",
+              "text": "Sort customs/entry documentation",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-024",
+              "text": "Plan activities and dining",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-social-002",
+          "title": "Winter Park Community",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Finding community and friendships in Winter Park after the move.",
+          "notes": "Researched options previously. No concrete actions taken yet.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-025",
+              "text": "Identify 2-3 community anchors to try first",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-social-003",
+          "title": "Dad's Solitaire App",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Build a solitaire card game as a gift for dad. Second Android dev project.",
+          "notes": "First project (task reminder app) needs to complete before this starts.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-026",
+              "text": "Complete task reminder app first",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-027",
+              "text": "Design solitaire game UI",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-028",
+              "text": "Build and gift to dad",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tide-personal-001",
+      "title": "The Current",
+      "status": "swelling",
+      "heat": "warm",
+      "summary": "Personal growth, health, learning, and creative projects.",
+      "notes": "Covers health workup, Spanish learning, writing, and Android development.",
+      "createdAt": "2026-04-13T12:00:00.000Z",
+      "updatedAt": "2026-04-13T12:00:00.000Z",
+      "waves": [
+        {
+          "id": "w-personal-001",
+          "title": "Health Workup",
+          "status": "swelling",
+          "heat": "simmering",
+          "summary": "Active health workup in progress. Lab results reviewed. Prioritized specialist roadmap drafted with internal medicine as coordination hub.",
+          "notes": "Internal medicine is the hub. Endocrinology and other specialists to follow per the roadmap.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-029",
+              "text": "Schedule internal medicine coordination appointment",
+              "status": "open",
+              "heat": "simmering",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-030",
+              "text": "Schedule endocrinology referral",
+              "status": "open",
+              "heat": "simmering",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-031",
+              "text": "Follow up on remaining specialist referrals per roadmap",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-personal-002",
+          "title": "Spanish Learning",
+          "status": "swelling",
+          "heat": "warm",
+          "summary": "LearnCraft method. 20+ lessons complete. Multiple-choice drills preferred.",
+          "notes": "Subjunctive and preterite/imperfect distinction flagged for later revisit once vocab base is stronger.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-032",
+              "text": "Continue LearnCraft lessons consistently",
+              "status": "open",
+              "heat": "warm",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-033",
+              "text": "Revisit subjunctive when vocab base is stronger",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-034",
+              "text": "Revisit preterite/imperfect distinction",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-personal-003",
+          "title": "Writing",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Intentionally on hold 1-2 months. Worldbuilding and character folders exist. Arc problem is the thing to solve.",
+          "notes": "Goal is completion, not perfection. Work backwards: what is the last true thing this story says?",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-035",
+              "text": "Review existing worldbuilding folders",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-036",
+              "text": "Work backwards from ending — what does the story finally say?",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-037",
+              "text": "Draft arc skeleton before writing forward",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        },
+        {
+          "id": "w-personal-004",
+          "title": "Android Development",
+          "status": "gathering",
+          "heat": "chilled",
+          "summary": "Learning Android/Kotlin in Android Studio. Task reminder app first.",
+          "notes": "Day 1 environment setup done. Data modeling is next step.",
+          "updatedAt": "2026-04-13T12:00:00.000Z",
+          "movedFrom": null,
+          "ripples": [
+            {
+              "id": "r-038",
+              "text": "Complete data model design for task reminder app",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-039",
+              "text": "Build basic UI scaffold",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            },
+            {
+              "id": "r-040",
+              "text": "Implement reminder logic",
+              "status": "open",
+              "heat": "chilled",
+              "createdAt": "2026-04-13T12:00:00.000Z",
+              "dueDate": null,
+              "reminderAt": null,
+              "movedFrom": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "horizons": []
