@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T02:40:42.402Z"
+    "updatedAt": "2026-04-14T02:41:30.482Z"
   },
   "tides": [
     {
@@ -15,7 +15,19 @@
       "notes": "",
       "createdAt": "2026-04-14T02:34:23.065Z",
       "updatedAt": "2026-04-14T02:34:23.065Z",
-      "waves": []
+      "waves": [
+        {
+          "id": "a3f9799e-5d58-426d-9086-c94139b33bdf",
+          "title": "Waste Tank",
+          "status": "gathering",
+          "heat": "simmering",
+          "summary": "Replace waste tank",
+          "notes": "",
+          "updatedAt": "2026-04-14T02:41:30.482Z",
+          "movedFrom": null,
+          "ripples": []
+        }
+      ]
     },
     {
       "id": "33947f24-b34f-4139-abe0-d546df9d09e0",
