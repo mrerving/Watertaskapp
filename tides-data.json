@@ -3,8 +3,17 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T01:44:40.844Z"
+    "updatedAt": "2026-04-14T02:27:13.105Z"
   },
   "tides": [],
-  "horizons": []
+  "horizons": [
+    {
+      "id": "b5c784c6-bd8f-40ff-b99a-ada72cd8e7df",
+      "title": "The Braided Chain",
+      "notes": "Stuff to fix or do on the boat",
+      "createdAt": "2026-04-14T02:27:13.098Z",
+      "updatedAt": "2026-04-14T02:27:13.104Z",
+      "items": []
+    }
+  ]
 }
