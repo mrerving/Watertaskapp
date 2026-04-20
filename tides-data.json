@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-20T14:22:50.543Z"
+    "updatedAt": "2026-04-20T14:23:12.339Z"
   },
   "tides": [
     {
@@ -739,38 +739,6 @@
             {
               "id": "r-012",
               "text": "Set pricing for snowbird season",
-              "status": "open",
-              "heat": null,
-              "createdAt": "2026-04-14T13:00:00.000Z",
-              "dueDate": null,
-              "reminderAt": null,
-              "movedFrom": null
-            }
-          ]
-        },
-        {
-          "id": "w-station-002",
-          "title": "Winter Park Relocation",
-          "status": "gathering",
-          "heat": "chilled",
-          "summary": "Planning relocation from Fort Pierce to Winter Park area.",
-          "notes": "Explored community and friendship options in Winter Park. Mortgage scenarios modeled previously.",
-          "updatedAt": "2026-04-14T13:00:00.000Z",
-          "movedFrom": null,
-          "ripples": [
-            {
-              "id": "r-013",
-              "text": "Finalize timeline for move",
-              "status": "open",
-              "heat": null,
-              "createdAt": "2026-04-14T13:00:00.000Z",
-              "dueDate": null,
-              "reminderAt": null,
-              "movedFrom": null
-            },
-            {
-              "id": "r-014",
-              "text": "Revisit mortgage payment scenarios",
               "status": "open",
               "heat": null,
               "createdAt": "2026-04-14T13:00:00.000Z",
