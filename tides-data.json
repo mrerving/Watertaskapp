@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-20T14:03:52.869Z"
+    "updatedAt": "2026-04-20T14:03:59.648Z"
   },
   "tides": [
     {
@@ -805,7 +805,7 @@
             {
               "id": "r-015",
               "text": "Purchase plants per finalized plan",
-              "status": "open",
+              "status": "done",
               "heat": null,
               "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
@@ -815,7 +815,7 @@
             {
               "id": "r-016",
               "text": "Plant and establish window bed",
-              "status": "open",
+              "status": "done",
               "heat": null,
               "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
