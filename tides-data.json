@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-20T14:03:59.648Z"
+    "updatedAt": "2026-04-20T14:22:02.967Z"
   },
   "tides": [
     {
@@ -20,10 +20,10 @@
           "id": "a3f9799e-5d58-426d-9086-c94139b33bdf",
           "title": "Holding Tank Replacement",
           "status": "gathering",
-          "heat": "chilled",
+          "heat": "warm",
           "summary": "Replace existing holding tank with custom rigid poly tank from Ronco Plastics. Porta-potty as interim solution.",
           "notes": "Custom tank design in progress. Need to confirm dimensions and order. Porta-potty covers gap in the meantime.",
-          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "updatedAt": "2026-04-20T14:22:02.967Z",
           "movedFrom": null,
           "ripples": [
             {
