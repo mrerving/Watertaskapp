@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-14T15:46:37.074Z"
+    "updatedAt": "2026-04-20T14:02:48.593Z"
   },
   "tides": [
     {
@@ -827,17 +827,17 @@
         {
           "id": "w-oasis-002",
           "title": "Fruit Trees",
-          "status": "gathering",
+          "status": "still",
           "heat": "chilled",
           "summary": "Exploring fruit tree options for the lawn. Zone 9b compatible selections.",
           "notes": "Cat safety constraint applies. Research done, no decisions made yet.",
-          "updatedAt": "2026-04-13T13:00:00.000Z",
+          "updatedAt": "2026-04-20T14:02:48.593Z",
           "movedFrom": null,
           "ripples": [
             {
               "id": "r-017",
               "text": "Finalize fruit tree selections",
-              "status": "open",
+              "status": "done",
               "heat": null,
               "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
@@ -847,7 +847,7 @@
             {
               "id": "r-018",
               "text": "Determine planting locations in yard",
-              "status": "open",
+              "status": "done",
               "heat": null,
               "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
@@ -857,7 +857,7 @@
             {
               "id": "r-019",
               "text": "Purchase and plant trees",
-              "status": "open",
+              "status": "done",
               "heat": null,
               "createdAt": "2026-04-13T13:00:00.000Z",
               "dueDate": null,
