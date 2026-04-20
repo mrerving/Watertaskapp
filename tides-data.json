@@ -3,7 +3,7 @@
     "version": "1.0",
     "schema": "tides",
     "lastModifiedBy": "app",
-    "updatedAt": "2026-04-20T14:22:02.967Z"
+    "updatedAt": "2026-04-20T14:22:50.543Z"
   },
   "tides": [
     {
@@ -384,10 +384,10 @@
           "id": "w-boat-clean",
           "title": "Deep Clean",
           "status": "gathering",
-          "heat": "chilled",
+          "heat": "warm",
           "summary": "Full boat detail — hull, deck, interior, bilge.",
           "notes": "Good to do before the other projects so you're working in a clean environment.",
-          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "updatedAt": "2026-04-20T14:22:42.518Z",
           "movedFrom": null,
           "ripples": [
             {
@@ -436,10 +436,10 @@
           "id": "w-boat-mattress",
           "title": "Aft Berth Mattress",
           "status": "gathering",
-          "heat": "chilled",
+          "heat": "warm",
           "summary": "Replace the aft berth mattress.",
           "notes": "Hunter 330 aft berth is an irregular shape — measure carefully before ordering. Custom cut foam is usually the most practical option for odd marine shapes.",
-          "updatedAt": "2026-04-14T13:00:00.000Z",
+          "updatedAt": "2026-04-20T14:22:50.543Z",
           "movedFrom": null,
           "ripples": [
             {
