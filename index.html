@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Tides" />
+  <meta name="theme-color" content="#0a1628" />
+  <meta name="description" content="Personal life & task tracker with a water/ocean theme" />
+
+  <title>Tides</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+  <!-- Styles — relative paths so GitHub Pages subdirectory works -->
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/badges.css" />
+  <link rel="stylesheet" href="css/cards.css" />
+  <link rel="stylesheet" href="css/forms.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+
+  <style>
+    /* Inline critical path: prevent FOUC */
+    body { background: #0a1628; }
+    #app-shell { height: 100dvh; overflow: hidden; }
+    @keyframes wave-bounce {
+      0%, 100% { transform: translateY(0); opacity: 0.4; }
+      50%       { transform: translateY(-8px); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- App shell — app.js replaces this content on boot -->
+  <div id="app-shell">
+    <!-- Initial loading state shown before JS runs -->
+    <div id="loading-screen" style="
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      height:100dvh;gap:16px;color:#7fa4b8;
+    ">
+      <div style="display:flex;gap:6px">
+        <span style="width:8px;height:8px;border-radius:50%;background:#0d9488;
+          animation:wave-bounce 1.2s ease-in-out infinite"></span>
+        <span style="width:8px;height:8px;border-radius:50%;background:#0d9488;
+          animation:wave-bounce 1.2s ease-in-out infinite;animation-delay:0.15s"></span>
+        <span style="width:8px;height:8px;border-radius:50%;background:#0d9488;
+          animation:wave-bounce 1.2s ease-in-out infinite;animation-delay:0.3s"></span>
+      </div>
+      <span style="font-size:0.875rem">Loading Tides…</span>
+      <noscript>
+        <p style="color:#ef4444;font-size:0.875rem;text-align:center;max-width:280px;margin-top:8px">
+          JavaScript is required to run Tides.
+        </p>
+      </noscript>
+    </div>
+  </div>
+
+  <!-- App entry point — relative path works on any hosting path -->
+  <script type="module" src="js/app.js"></script>
+
+</body>
+</html>
