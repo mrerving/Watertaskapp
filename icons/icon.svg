@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#0a1628"/>
+  <!-- Wave 1 (back) -->
+  <path d="M0 320 Q64 270 128 320 Q192 370 256 320 Q320 270 384 320 Q448 370 512 320 L512 512 L0 512 Z" fill="#0d9488" opacity="0.4"/>
+  <!-- Wave 2 (mid) -->
+  <path d="M0 360 Q64 310 128 360 Q192 410 256 360 Q320 310 384 360 Q448 410 512 360 L512 512 L0 512 Z" fill="#0d9488" opacity="0.6"/>
+  <!-- Wave 3 (front) -->
+  <path d="M0 400 Q64 350 128 400 Q192 450 256 400 Q320 350 384 400 Q448 450 512 400 L512 512 L0 512 Z" fill="#6ee7b7" opacity="0.8"/>
+  <!-- Tilde ~ symbol -->
+  <text x="256" y="290" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="220" font-weight="700" fill="#6ee7b7" text-anchor="middle" dominant-baseline="middle">~</text>
+</svg>
